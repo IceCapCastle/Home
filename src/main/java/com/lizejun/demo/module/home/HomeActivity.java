@@ -3,6 +3,7 @@ package com.lizejun.demo.module.home;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 
 import com.demo.lizejun.module.home.R;
 import com.lizejun.demo.lib.base.util.FragmentUtils;
@@ -14,6 +15,7 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         addFragment();
+        Log.d("123", "123");
     }
 
     private void addFragment() {
